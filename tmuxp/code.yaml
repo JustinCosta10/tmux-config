@@ -1,0 +1,7 @@
+session_name: code
+windows:
+  - window_name: code
+    layout: even-horizontal
+    panes:
+      - null
+      - null
