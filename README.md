@@ -4,7 +4,7 @@ My tmux and [tmuxp](https://github.com/tmux-python/tmuxp) configuration.
 
 ## Contents
 
-- `tmux.conf` — main tmux config (prefix `F12`, vi-style panes, mouse, clipboard)
+- `tmux.conf` — main tmux config (prefix `Ctrl-A`, vi-style panes, mouse, clipboard)
 - `tmuxp/` — tmuxp session layouts
   - `code.yaml` — simple two-pane `code` session
   - `supercode.yaml` — full `supercode` session (yazi, lazygit, terminals)
@@ -31,5 +31,4 @@ tmuxp load supercode      # load the supercode session
 ## Notes
 
 - macOS-specific: copy bindings use `pbcopy`. On Linux, swap for `xclip`/`wl-copy`.
-- The prefix is `F12` — `tmux.conf` assumes Caps Lock is remapped to F12 via
-  `hidutil` on macOS. Without that remap, set a different prefix.
+- The prefix is `Ctrl-A`.
