@@ -11,7 +11,7 @@ windows:
         focus: true
       - shell_command: []
       - shell_command:
-          - pi --provider ollama --model deepseek-v4-pro:cloud
+          - codex
   - window_name: git
     panes:
       - shell_command:
